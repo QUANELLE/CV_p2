@@ -10,12 +10,12 @@ h2
 body
 {
 	display: flex;
-	
+
 }
 #liseret
 {
-	width: 100px;
-	background-color: B388FF;
+	width: 300px;
+	background-color: #7C4DFF;
 	border-radius: 20px;
 
 }
