@@ -29,6 +29,11 @@ aside h2
 {
 	text-align: center;
 }
+#photo img
+{
+	border: 1px;
+	border-radius: 50px;
+}	
 #contact ul
 {
 	list-style-type: none;
