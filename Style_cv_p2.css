@@ -1,22 +1,29 @@
 body
 {
+	display: flex;
+	justify-content: center;
+}
+#contenu
+{
 display:inline-flex;
-justify-content: space-between; /* éventuellement essayer space-between*/
+width: 80%;
 }
 aside
 {
 	display: flex;
 	flex-direction: column ;
-	width: 25%;
+	width: 30%;
 	background-color:#9FA8DA;
 	justify-content: center;
 	padding-left: 0px;
 	padding-right: 0px;
 }
- #contenu
+ #principal
 {
 	text-align: justify;
 	padding: 50px 30px;
+	justify-content: space-around;
+	background-color: #EEEEEE;
 }
 aside h2
 {
@@ -44,7 +51,15 @@ aside h2
 	padding: 30px;
 	text-align: justify;
 }
-#loisirs
+header
 {
-
+	margin: 30px;
+}
+#titrecv
+{
+	margin: auto;
+}
+section
+{
+	margin-top: 50px;
 }
