@@ -11,22 +11,19 @@ aside
 	background-color:#9FA8DA;
 	justify-content: center;
 	padding-left: 0px;
+	padding-right: 0px;
 }
-aside, #contenu
-{
-	padding: 50px 30px;
-	
-}
-#contenu
+ #contenu
 {
 	text-align: justify;
+	padding: 50px 30px;
 }
 aside h2
 {
 	background-color: #84FFFF;
 	text-align: center;
+	width: 100%;
 	
-	flex-grow: 1;
 }
 #photo
 {
@@ -35,12 +32,12 @@ aside h2
 #contact ul
 {
 	list-style-type: none;
-	flex-grow: 1;
+	
 }
-#parcours
+#parcours p
 {
-flex-grow: 3;
-
+	padding: 30px;
+	text-align: justify;
 }
 #loisirs
 {
