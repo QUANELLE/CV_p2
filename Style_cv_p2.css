@@ -100,7 +100,19 @@ hr
 	color: #303F9F;
 	line-height: 4px;
 }
-footer
+#formation
 {
-	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.form
+{
+	display: flex;
+	justify-content: flex-start;
+}
+.année
+{
+	text-align: left;
+	width: 15%;
 }
