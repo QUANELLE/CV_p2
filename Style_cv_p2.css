@@ -8,6 +8,7 @@ body
 display:inline-flex;
 width: 80%;
 }
+/*partie gauche*/
 aside
 {
 	display: flex;
@@ -18,13 +19,8 @@ aside
 	padding-left: 0px;
 	padding-right: 0px;
 }
- #principal
-{
-	text-align: justify;
-	padding: 50px 30px;
-	justify-content: space-around;
-	background-color: #EEEEEE;
-}
+
+
 aside h2
 {
 	background-color: #84FFFF;
@@ -51,6 +47,18 @@ aside h2
 	padding: 30px;
 	text-align: justify;
 }
+
+/*partie droite*/
+ #principal
+{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 50px 30px;
+	justify-content: space-around;
+	background-color: #EEEEEE;
+
+}
 header
 {
 	margin: 30px;
@@ -61,5 +69,13 @@ header
 }
 section
 {
+	display: flex;
+	flex-direction: column;
 	margin-top: 50px;
+	justify-content: space-between;
+	flex-grow: 1;
+}
+footer
+{
+	
 }
