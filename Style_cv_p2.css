@@ -39,7 +39,10 @@ aside h2
 #photo img
 {
 	border: 1px;
-	border-radius: 50px;
+	
+	width: 150px;
+	clip-path: ellipse(50% 50%);
+
 }	
 ul
 {
@@ -92,9 +95,10 @@ section
 	display: flex;
 	flex-direction: column;
 	margin-top: 50px;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-grow: 1;
 }
+
 hr
 {
 	color: #303F9F;
@@ -102,17 +106,28 @@ hr
 }
 #formation
 {
+	
+}
+#corps
+{
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
-}
+	justify-content: space-between;
+}	
+	
 .form
 {
 	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 	justify-content: flex-start;
 }
 .année
 {
 	text-align: left;
 	width: 15%;
+}
+footer
+{
+
 }
