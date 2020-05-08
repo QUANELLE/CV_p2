@@ -1,5 +1,48 @@
 body
 {
 display:inline-flex;
+justify-content: space-between; /* éventuellement essayer space-between*/
+}
+aside
+{
+	display: flex;
+	flex-direction: column ;
+	width: 25%;
+	background-color:#9FA8DA;
+	justify-content: center;
+	padding-left: 0px;
+}
+aside, #contenu
+{
+	padding: 50px 30px;
+	
+}
+#contenu
+{
+	text-align: justify;
+}
+aside h2
+{
+	background-color: #84FFFF;
+	text-align: center;
+	
+	flex-grow: 1;
+}
+#photo
+{
+	text-align: center;
+}
+#contact ul
+{
+	list-style-type: none;
+	flex-grow: 1;
+}
+#parcours
+{
+flex-grow: 3;
+
+}
+#loisirs
+{
 
 }
