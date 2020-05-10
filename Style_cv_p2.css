@@ -6,7 +6,7 @@ body
 #contenu
 {
 display:inline-flex;
-width: 80%;
+
 }
 h2
 {
@@ -130,4 +130,9 @@ hr
 footer
 {
 
+}
+i
+{
+	color: red;
+	font-size: 5em;
 }
