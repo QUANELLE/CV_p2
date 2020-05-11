@@ -101,12 +101,7 @@ hr
 {
 	
 }
-#corps
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}	
+	
 	
 .form
 {
@@ -120,14 +115,10 @@ hr
 	text-align: left;
 	width: 15%;
 }
-footer
-{
 
-}
 /* couleurs*/
-i
+#listicones i
 {
-	
 	font-size: 2em;
 	border-radius: 50%;
 	border:solid #3F3D57 2px;
@@ -152,4 +143,9 @@ i
 .lettrefoncée
 {
 	color: #3F3D57;
+}
+/* taille icones*/
+.petite
+{
+	font-size: 0.6em;
 }
