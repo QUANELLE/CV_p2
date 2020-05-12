@@ -103,9 +103,22 @@ hr
 {
 	height: 2px;
 }
-#formation
+footer
 {
-	
+	margin-top: 50px;
+}
+#Recommandations
+{
+	display: flex;
+}
+.recom
+{
+	margin: auto;
+	line-height: 10px;
+}
+.nom-recom
+{
+	text-transform: uppercase;
 }
 /* ancienne version formation rendue invisible*/	
 .form
@@ -127,6 +140,21 @@ hr
 {
 	width: 300px;
 }
+td i
+{
+	width: 30px;
+}
+.form-ligne1 
+{
+	text-transform: uppercase;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+.form-ligne2
+{
+	font-size: 1.2em;
+}
+
 /* couleurs*/
 #listicones i
 {
