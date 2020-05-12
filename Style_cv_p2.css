@@ -29,8 +29,7 @@ aside
 {
 	display: flex;
 	flex-direction: column ;
-	width: 30%;
-	background-color:#9FA8DA;
+	width: 30%;	
 	justify-content: center;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -45,6 +44,9 @@ aside h2
 #photo
 {
 	text-align: center;
+	width: 30%;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 #photo img
 {
