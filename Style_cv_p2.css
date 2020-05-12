@@ -107,21 +107,26 @@ hr
 {
 	
 }
-	
-	
+/* ancienne version formation rendue invisible*/	
 .form
 {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: flex-start;
+	visibility: hidden;
 }
 .année
 {
 	text-align: left;
 	width: 15%;
 }
-
+/* fin ancienne version*/
+/*mise en forme tableaux*/
+.form-col1
+{
+	width: 300px;
+}
 /* couleurs*/
 #listicones i
 {
