@@ -82,7 +82,13 @@ h3
 {
 	font-size: 2em;
 }
+.quoi
+{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;		
 
+}
 
 section
 {
