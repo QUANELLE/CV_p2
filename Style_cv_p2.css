@@ -17,47 +17,35 @@ body
 }
 #contenu
 {
-display:inline-flex;
+
 font-family: 'aaarghnormal';
 }
 h2
 {
 	text-transform: uppercase;
 }
-/*partie gauche*/
-aside
+.no-gutters
 {
-	display: flex;
-	flex-direction: column ;
-	width: 30%;	
-	justify-content: center;
 	padding-left: 0px;
 	padding-right: 0px;
 }
-
-
+/*partie basse*/
+aside
+{
+	display: flex;
+	flex-direction: column ;		
+	justify-content: space-between;
+	padding: 0px;
+}
 aside h2
 {
 	text-align: center;
 	width: 100%;
+
 }
-#photo
-{
-	text-align: center;
-	width: 30%;
-	padding-right: 0px;
-	padding-left: 0px;
-}
-#photo img
-{
-	border: 1px;
-	width: 150px;
-	clip-path: ellipse(50% 50%);
-}	
 ul
 {
 	list-style-type: none;
-	
 }
 #parcours p
 {
@@ -70,40 +58,10 @@ ul
 	justify-content: space-around;
 	margin-top: 50px;
 }
-
-/*partie droite*/
- #principal
+#loisirs
 {
-	display: flex;
-	flex-direction: column;
-	text-align: justify;
-	padding: 50px 30px;
-	justify-content: space-around;
+	bottom: 30px;
 }
-header
-{
-	margin: 30px;
-}
-#titrecv
-{
-	margin: auto;
-}
-h1
-{
-	font-size: 3em;
-}
-h3
-{
-	font-size: 2em;
-}
-.quoi
-{
-	text-transform: uppercase;
-	font-size: 1.2em;
-	font-weight: bold;		
-
-}
-
 section
 {
 	display: flex;
@@ -134,7 +92,7 @@ footer
 {
 	text-transform: uppercase;
 }
-/* ancienne version formation rendue invisible*/	
+/* ancienne version formation rendue invisible	
 .form
 {
 	display: flex;
@@ -148,7 +106,8 @@ footer
 	text-align: left;
 	width: 15%;
 }
-/* fin ancienne version*/
+fin ancienne version*/
+
 /*mise en forme tableaux*/
 .form-col1
 {
@@ -168,6 +127,52 @@ td i
 {
 	font-size: 1.2em;
 }
+
+/*partie haute*/
+#photo
+{
+	text-align: center;
+	width: 30%;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#photo img
+{
+	border: 1px;
+	width: 150px;
+	clip-path: ellipse(50% 50%);
+}	
+ #tête
+{
+	text-align: justify;
+	padding: 50px 30px;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+header
+{
+	margin: 30px;
+}
+#titrecv
+{
+	margin: auto;
+}
+h1
+{
+	font-size: 3em;
+}
+h3
+{
+	font-size: 2em;
+}
+/*ancienne version
+.quoi
+{
+	text-transform: uppercase;
+	font-size: 1.2em;
+	font-weight: bold;	
+}*/
+
 
 /* couleurs*/
 #listicones i
@@ -197,6 +202,7 @@ td i
 {
 	color: #3F3D57;
 }
+
 /* taille icones*/
 .petite
 {
