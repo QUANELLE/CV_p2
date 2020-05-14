@@ -155,7 +155,7 @@ td i
 	text-align: justify;
 	
 	justify-content: space-around;
-	flex-wrap: nowrap;
+	
 }
 header
 {
@@ -220,3 +220,6 @@ h3
 {
 	font-size: 0.6em;
 }
+
+/*responsive*/
+@media query
