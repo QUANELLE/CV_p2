@@ -17,18 +17,13 @@ body
 }
 #contenu
 {
-
 font-family: 'aaarghnormal';
 }
 h2
 {
 	text-transform: uppercase;
 }
-.no-gutters
-{
-	padding-left: 0px;
-	padding-right: 0px;
-}
+
 /*partie basse*/
 aside
 {
@@ -36,6 +31,12 @@ aside
 	flex-direction: column ;		
 	justify-content: space-between;
 	padding: 0px;
+}
+aside.no-gutters
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 40px;
 }
 aside h2
 {
@@ -61,15 +62,22 @@ ul
 #loisirs
 {
 	bottom: 30px;
+	padding-bottom: 30px;
 }
 section
 {
 	display: flex;
 	flex-direction: column;
 	margin-top: 50px;
+	padding-left: 40px;
 	justify-content: space-around;
 	flex-grow: 1;
 }
+section.no-gutters
+{
+	padding-left: 40px;
+}
+
 
 hr
 {
@@ -121,7 +129,7 @@ td i
 {
 	text-transform: uppercase;
 	font-size: 1.3em;
-	font-weight: bold;
+	font-weight: 3;
 }
 .form-ligne2
 {
@@ -145,13 +153,17 @@ td i
  #tête
 {
 	text-align: justify;
-	padding: 50px 30px;
+	
 	justify-content: space-around;
 	flex-wrap: nowrap;
 }
 header
 {
-	margin: 30px;
+	padding-left:30px;
+}
+header.no-gutters
+{
+	padding-left: 40px;
 }
 #titrecv
 {
