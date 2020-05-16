@@ -140,7 +140,7 @@ td i
 #photo
 {
 	text-align: center;
-	width: 30%;
+	
 	padding-right: 0px;
 	padding-left: 0px;
 }
@@ -152,22 +152,19 @@ td i
 }	
  #tête
 {
-	text-align: justify;
-	
+	display: flex;
+	text-align: justify;	
 	justify-content: space-around;
 	
 }
-header
-{
-	padding-left:30px;
-}
-header.no-gutters
-{
-	padding-left: 40px;
-}
 #titrecv
 {
+	padding-left:30px;
 	margin: auto;
+}
+#titrecv.no-gutters
+{
+	padding-left: 40px;
 }
 h1
 {
@@ -222,4 +219,10 @@ h3
 }
 
 /*responsive*/
-@media query
+@media screen and (max-width:600px)
+{
+	aside
+	{
+		order: 2;
+	}
+}
