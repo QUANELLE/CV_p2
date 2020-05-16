@@ -86,30 +86,32 @@ hr
 .recommandations
 {
 	margin-top: 50px;
-}
+
+}	
 #Recommandations
 {
-	display: flex;
+	
 }
 .recom
 {
 	margin: auto;
-	line-height: 10px;
+	line-height: 1.5rem;
 	padding-top: 20px;
 }
 .nom-recom
 {
 	text-transform: uppercase;
+
 }
 
                /*mise en forme tableaux*/
 .form-col1
 {
-	width: 300px;
+	width: 15%;
 }
 td i
 {
-	width: 30px;
+	width: 5%;
 }
 tr
 {
@@ -214,16 +216,20 @@ h3
 	{
 		order: 2;
 	}
-	.colicon
+	aside.no-gutters
+	{
+		padding-top: 0;
+	}
+/*	.colicon
 	{
 		display: none;
 	}
-	
+*/	
 	section.no-gutters
 	{
 		padding: 5px;
 	}
-	h2,
+	h2
 
 	{
 		font-size: 1.5rem;
