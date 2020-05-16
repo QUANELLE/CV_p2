@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'aaarghnormal';
-    src: url('Aaargh-webfont.eot');
-    src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Aaargh-webfont.woff2') format('woff2'),
-         url('Aaargh-webfont.woff') format('woff'),
-         url('Aaargh-webfont.ttf') format('truetype'),
-         url('Aaargh-webfont.svg#aaarghnormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'aaarghnormal';
+	src: url('Aaargh-webfont.eot');
+	src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+	url('Aaargh-webfont.woff2') format('woff2'),
+	url('Aaargh-webfont.woff') format('woff'),
+	url('Aaargh-webfont.ttf') format('truetype'),
+	url('Aaargh-webfont.svg#aaarghnormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 body
@@ -17,14 +17,14 @@ body
 }
 #contenu
 {
-font-family: 'aaarghnormal';
+	font-family: 'aaarghnormal';
 }
 h2
 {
 	text-transform: uppercase;
 }
 
-/*partie basse*/
+                   /*partie basse*/
 aside
 {
 	display: flex;
@@ -83,7 +83,7 @@ hr
 {
 	height: 2px;
 }
-footer
+.recommandations
 {
 	margin-top: 50px;
 }
@@ -95,28 +95,14 @@ footer
 {
 	margin: auto;
 	line-height: 10px;
+	padding-top: 20px;
 }
 .nom-recom
 {
 	text-transform: uppercase;
 }
-/* ancienne version formation rendue invisible	
-.form
-{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	visibility: hidden;
-}
-.année
-{
-	text-align: left;
-	width: 15%;
-}
-fin ancienne version*/
 
-/*mise en forme tableaux*/
+               /*mise en forme tableaux*/
 .form-col1
 {
 	width: 300px;
@@ -124,6 +110,17 @@ fin ancienne version*/
 td i
 {
 	width: 30px;
+}
+tr
+{
+	line-height: 2;
+	padding:50px 30px;
+	
+}
+tbody
+{
+	
+	vertical-align: top;
 }
 .form-ligne1 
 {
@@ -136,7 +133,7 @@ td i
 	font-size: 1.2em;
 }
 
-/*partie haute*/
+                   /*partie haute*/
 #photo
 {
 	text-align: center;
@@ -150,7 +147,7 @@ td i
 	width: 150px;
 	clip-path: ellipse(50% 50%);
 }	
- #tête
+#tête
 {
 	display: flex;
 	text-align: justify;	
@@ -174,16 +171,8 @@ h3
 {
 	font-size: 2em;
 }
-/*ancienne version
-.quoi
-{
-	text-transform: uppercase;
-	font-size: 1.2em;
-	font-weight: bold;	
-}*/
 
-
-/* couleurs*/
+	             /* couleurs*/
 #listicones i
 {
 	font-size: 2em;
@@ -212,17 +201,36 @@ h3
 	color: #3F3D57;
 }
 
-/* taille icones*/
+             	/* taille icones*/
 .petite
 {
 	font-size: 0.6em;
 }
 
-/*responsive*/
-@media screen and (max-width:600px)
+	           /*responsive*/
+@media screen and (max-width:575px)
 {
 	aside
 	{
 		order: 2;
 	}
+	.colicon
+	{
+		display: none;
+	}
+	
+	section.no-gutters
+	{
+		padding: 5px;
+	}
+	h2,
+
+	{
+		font-size: 1.5rem;
+	}
+	.form-ligne1
+	{
+		font-size: 1rem;
+	}
 }
+	
