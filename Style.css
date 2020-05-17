@@ -25,8 +25,47 @@ h2
 	font-size: 30px;
 	font-weight: bolder;
 }
+                   /*partie haute*/
+#photo
+{
+	text-align: center;
+	
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#photo img
+{
+	border: 1px;
+	width: 150px;
+	clip-path: ellipse(50% 50%);
+}	
+#tête
+{
+	display: flex;
+	text-align: justify;	
+	justify-content: space-around;
+	
+}
+#titrecv
+{
+	padding-left:30px;
+	margin: auto;
+}
+#titrecv.no-gutters
+{
+	padding-left: 40px;
+}
+h1
+{
+	font-size: 3em;
+}
+h3
+{
+	font-size: 2em;
+}
 
-                   /*partie basse*/
+                   /*partie principale*/
+            /*partie gauche colorée*/       
 aside
 {
 	display: flex;
@@ -69,6 +108,7 @@ li
 	bottom: 30px;
 	padding-bottom: 30px;
 }
+			/* partie droite*/		
 section
 {
 	display: flex;
@@ -82,11 +122,29 @@ section.no-gutters
 {
 	padding-left: 40px;
 }
-
-
 hr
 {
 	height: 2px;
+}
+.row div
+{
+	margin-top: 20px;
+}
+
+               
+.form-col1
+{
+	width: 20%;
+}
+
+.form-ligne1 
+{
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+.form-ligne2
+{
+	font-size: 1.2em;
 }
 #recommandations, #experience
 {
@@ -101,77 +159,9 @@ hr
 .nom-recom
 {
 	text-transform: uppercase;
-
 }
 
-               /*mise en forme tableaux*/
-.form-col1
-{
-	width: 20%;
-}
-td i
-{
-	width: 5%;
-}
-tr
-{
-	line-height: 2;
-	padding:50px 30px;
-	
-}
-tbody
-{
-	
-	vertical-align: top;
-}
-.form-ligne1 
-{
-	text-transform: uppercase;
-	font-size: 1.3em;
-}
-.form-ligne2
-{
-	font-size: 1.2em;
-}
 
-                   /*partie haute*/
-#photo
-{
-	text-align: center;
-	
-	padding-right: 0px;
-	padding-left: 0px;
-}
-#photo img
-{
-	border: 1px;
-	width: 150px;
-	clip-path: ellipse(50% 50%);
-}	
-#tête
-{
-	display: flex;
-	text-align: justify;	
-	justify-content: space-around;
-	
-}
-#titrecv
-{
-	padding-left:30px;
-	margin: auto;
-}
-#titrecv.no-gutters
-{
-	padding-left: 40px;
-}
-h1
-{
-	font-size: 3em;
-}
-h3
-{
-	font-size: 2em;
-}
 
 	             /* couleurs*/
 #listicones i
@@ -209,6 +199,7 @@ h3
 }
 
 	           /*responsive*/
+
 @media screen and (max-width:575px)
 {
 	aside
@@ -219,11 +210,7 @@ h3
 	{
 		padding-top: 0;
 	}
-/*	.colicon
-	{
-		display: none;
-	}
-*/	
+
 	section.no-gutters
 	{
 		padding: 5px;
@@ -236,6 +223,10 @@ h3
 	.form-ligne1
 	{
 		font-size: 1rem;
+	}
+	#titrecv h1, #titrecv h3
+	{
+		text-align: center;
 	}
 }
 	
