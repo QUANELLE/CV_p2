@@ -89,16 +89,11 @@ hr
 .recommandations
 {
 	margin-top: 50px;
-
 }	
-#Recommandations
-{
-	
-}
 .recom
 {
 	margin: auto;
-	line-height: 1.5rem;
+	line-height: 1.1rem;
 	padding-top: 20px;
 }
 .nom-recom
@@ -131,7 +126,6 @@ tbody
 {
 	text-transform: uppercase;
 	font-size: 1.3em;
-	font-weight: 300;
 }
 .form-ligne2
 {
