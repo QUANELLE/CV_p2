@@ -1,0 +1,151 @@
+
+body
+{
+	display: flex;
+	justify-content: center;
+}
+#contenu
+{
+display:inline-flex;
+}
+h2
+{
+	text-transform: uppercase;
+}
+/*partie gauche*/
+aside
+{
+	display: flex;
+	flex-direction: column ;
+	width: 30%;
+	background-color:#9FA8DA;
+	justify-content: center;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+
+aside h2
+{
+	text-align: center;
+	width: 100%;
+}
+#photo
+{
+	text-align: center;
+}
+#photo img
+{
+	border: 1px;
+	width: 150px;
+	clip-path: ellipse(50% 50%);
+}	
+ul
+{
+	list-style-type: none;
+	
+}
+#parcours p
+{
+	padding: 30px;
+	text-align: justify;
+}
+#listicones
+{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+/*partie droite*/
+ #principal
+{
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	padding: 50px 30px;
+	justify-content: space-around;
+}
+header
+{
+	margin: 30px;
+}
+#titrecv
+{
+	margin: auto;
+}
+h1
+{
+	font-size: 3em;
+}
+h3
+{
+	font-size: 2em;
+}
+
+
+section
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	justify-content: space-around;
+	flex-grow: 1;
+}
+
+hr
+{
+	height: 2px;
+}
+#formation
+{
+	
+}
+	
+	
+.form
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+}
+.année
+{
+	text-align: left;
+	width: 15%;
+}
+
+/* couleurs*/
+#listicones i
+{
+	font-size: 2em;
+	border-radius: 50%;
+	border:solid #3F3D57 2px;
+	padding: 8px;
+}
+#dev
+{
+	text-decoration: underline #3DF0D6;
+}
+.fondaside
+{
+	background-color: #3DF0D6;
+}
+.lettrecolor
+{
+	color:#3DF0D6; 
+}
+.fondtitre 
+{
+	background-color: #3F3D57;
+}
+.lettrefoncée
+{
+	color: #3F3D57;
+}
+/* taille icones*/
+.petite
+{
+	font-size: 0.6em;
+}
