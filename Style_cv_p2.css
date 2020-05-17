@@ -1,13 +1,13 @@
 @font-face {
-    font-family: 'aaarghnormal';
-    src: url('Aaargh-webfont.eot');
-    src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Aaargh-webfont.woff2') format('woff2'),
-         url('Aaargh-webfont.woff') format('woff'),
-         url('Aaargh-webfont.ttf') format('truetype'),
-         url('Aaargh-webfont.svg#aaarghnormal') format('svg');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'aaarghnormal';
+	src: url('Aaargh-webfont.eot');
+	src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+	url('Aaargh-webfont.woff2') format('woff2'),
+	url('Aaargh-webfont.woff') format('woff'),
+	url('Aaargh-webfont.ttf') format('truetype'),
+	url('Aaargh-webfont.svg#aaarghnormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
 
 }
 body
@@ -17,45 +17,39 @@ body
 }
 #contenu
 {
-display:inline-flex;
-font-family: 'aaarghnormal';
+	font-family: 'aaarghnormal';
 }
 h2
 {
 	text-transform: uppercase;
 }
-/*partie gauche*/
+
+                   /*partie basse*/
 aside
 {
 	display: flex;
-	flex-direction: column ;
-	width: 30%;
-	background-color:#9FA8DA;
-	justify-content: center;
+	flex-direction: column ;		
+	justify-content: space-between;
+	padding: 0px;
+}
+aside.no-gutters
+{
 	padding-left: 0px;
 	padding-right: 0px;
+	padding-top: 40px;
 }
-
-
 aside h2
 {
 	text-align: center;
 	width: 100%;
 }
-#photo
-{
-	text-align: center;
-}
-#photo img
-{
-	border: 1px;
-	width: 150px;
-	clip-path: ellipse(50% 50%);
-}	
 ul
 {
 	list-style-type: none;
-	
+}
+li
+{
+	line-height: 3rem;
 }
 #parcours p
 {
@@ -68,23 +62,105 @@ ul
 	justify-content: space-around;
 	margin-top: 50px;
 }
-
-/*partie droite*/
- #principal
+#loisirs
+{
+	bottom: 30px;
+	padding-bottom: 30px;
+}
+section
 {
 	display: flex;
 	flex-direction: column;
-	text-align: justify;
-	padding: 50px 30px;
+	margin-top: 50px;
+	padding-left: 40px;
 	justify-content: space-around;
+	flex-grow: 1;
 }
-header
+section.no-gutters
 {
-	margin: 30px;
+	padding-left: 40px;
+}
+
+
+hr
+{
+	height: 2px;
+}
+.recommandations
+{
+	margin-top: 50px;
+}	
+.recom
+{
+	margin: auto;
+	line-height: 1.1rem;
+	padding-top: 20px;
+}
+.nom-recom
+{
+	text-transform: uppercase;
+
+}
+
+               /*mise en forme tableaux*/
+.form-col1
+{
+	width: 15%;
+}
+td i
+{
+	width: 5%;
+}
+tr
+{
+	line-height: 2;
+	padding:50px 30px;
+	
+}
+tbody
+{
+	
+	vertical-align: top;
+}
+.form-ligne1 
+{
+	text-transform: uppercase;
+	font-size: 1.3em;
+}
+.form-ligne2
+{
+	font-size: 1.2em;
+}
+
+                   /*partie haute*/
+#photo
+{
+	text-align: center;
+	
+	padding-right: 0px;
+	padding-left: 0px;
+}
+#photo img
+{
+	border: 1px;
+	width: 150px;
+	clip-path: ellipse(50% 50%);
+}	
+#tête
+{
+	display: flex;
+	text-align: justify;	
+	justify-content: space-around;
+	
 }
 #titrecv
 {
+	padding-left:30px;
 	margin: auto;
+}
+#titrecv.no-gutters
+{
+	padding-left: 40px;
 }
 h1
 {
@@ -94,80 +170,8 @@ h3
 {
 	font-size: 2em;
 }
-.quoi
-{
-	text-transform: uppercase;
-	font-size: 1.2em;
-	font-weight: bold;		
 
-}
-
-section
-{
-	display: flex;
-	flex-direction: column;
-	margin-top: 50px;
-	justify-content: space-around;
-	flex-grow: 1;
-}
-
-hr
-{
-	height: 2px;
-}
-footer
-{
-	margin-top: 50px;
-}
-#Recommandations
-{
-	display: flex;
-}
-.recom
-{
-	margin: auto;
-	line-height: 10px;
-}
-.nom-recom
-{
-	text-transform: uppercase;
-}
-/* ancienne version formation rendue invisible*/	
-.form
-{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: flex-start;
-	visibility: hidden;
-}
-.année
-{
-	text-align: left;
-	width: 15%;
-}
-/* fin ancienne version*/
-/*mise en forme tableaux*/
-.form-col1
-{
-	width: 300px;
-}
-td i
-{
-	width: 30px;
-}
-.form-ligne1 
-{
-	text-transform: uppercase;
-	font-size: 1.3em;
-	font-weight: bold;
-}
-.form-ligne2
-{
-	font-size: 1.2em;
-}
-
-/* couleurs*/
+	             /* couleurs*/
 #listicones i
 {
 	font-size: 2em;
@@ -195,8 +199,41 @@ td i
 {
 	color: #3F3D57;
 }
-/* taille icones*/
+
+             	/* taille icones*/
 .petite
 {
 	font-size: 0.6em;
 }
+
+	           /*responsive*/
+@media screen and (max-width:575px)
+{
+	aside
+	{
+		order: 2;
+	}
+	aside.no-gutters
+	{
+		padding-top: 0;
+	}
+/*	.colicon
+	{
+		display: none;
+	}
+*/	
+	section.no-gutters
+	{
+		padding: 5px;
+	}
+	h2
+
+	{
+		font-size: 1.5rem;
+	}
+	.form-ligne1
+	{
+		font-size: 1rem;
+	}
+}
+	
