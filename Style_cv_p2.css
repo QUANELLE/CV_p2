@@ -22,6 +22,8 @@ body
 h2
 {
 	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bolder;
 }
 
                    /*partie basse*/
@@ -86,7 +88,7 @@ hr
 {
 	height: 2px;
 }
-.recommandations
+#recommandations, #experience
 {
 	margin-top: 50px;
 }	
