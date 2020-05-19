@@ -210,7 +210,10 @@ hr
 	{
 		padding-top: 0;
 	}
-
+	#contact
+	{
+		margin-top: 0;
+	}
 	section.no-gutters
 	{
 		padding: 5px;
