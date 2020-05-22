@@ -232,4 +232,8 @@ hr
 		text-align: center;
 	}
 }
-	
+
+.date::before
+{
+content:"<i class="far fa-dot-circle lettrecolor"></i>"
+}	
