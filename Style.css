@@ -210,7 +210,10 @@ hr
 	{
 		padding-top: 0;
 	}
-
+	#contact
+	{
+		margin-top: 0;
+	}
 	section.no-gutters
 	{
 		padding: 5px;
@@ -229,4 +232,8 @@ hr
 		text-align: center;
 	}
 }
-	
+
+.date::before
+{
+content:"<i class="far fa-dot-circle lettrecolor"></i>"
+}	
