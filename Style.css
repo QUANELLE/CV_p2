@@ -162,11 +162,15 @@ h2 i
 {
 	margin: auto;
 	line-height: 0.9rem;
-	
 }
 .nom-recom
 {
 	text-transform: uppercase;
+
+}
+.email
+{
+	font-weight: lighter;
 }
 
 
@@ -265,11 +269,22 @@ h2 i
 	{
 		padding-left: 20px;
 	}
-}
-@media screen and (min-width: 1200px)
-{
-	#contenu
+	section.no-gutters
 	{
-		font-size: 1.2em;
+		padding: 20px;
+	}
+}
+@media screen and (max-width: 1200px)	
+{
+	body	
+	{
+		font-size: 1.2rem;
+	}
+}
+@media screen and (min-width: 1500px)
+{
+	body
+	{
+		font-size: 1.4em;
 	}
 }
