@@ -122,6 +122,10 @@ section.no-gutters
 {
 	padding-left: 80px;
 }
+section div
+{
+	margin-bottom: 20px;
+}
 hr
 {
 	height: 2px;
