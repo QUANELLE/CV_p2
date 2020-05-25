@@ -18,6 +18,8 @@ body
 #contenu
 {
 	font-family: 'aaarghnormal';
+	padding-left:0px;
+
 }
 h2
 {
@@ -29,14 +31,16 @@ h2
 #photo
 {
 	text-align: center;
-	
+	margin-top: 0px;
+	margin-right: -15px;
 	padding-right: 0px;
 	padding-left: 0px;
+	padding-top: 40px;
 }
 #photo img
 {
 	border: 1px;
-	width: 150px;
+	width: 200px;
 	clip-path: ellipse(50% 50%);
 }	
 #tête
@@ -87,10 +91,6 @@ aside h2
 ul
 {
 	list-style-type: none;
-}
-li
-{
-	line-height: 3rem;
 }
 #parcours p
 {
@@ -153,8 +153,8 @@ hr
 .recom
 {
 	margin: auto;
-	line-height: 1.1rem;
-	padding-top: 20px;
+	line-height: 0.9rem;
+	
 }
 .nom-recom
 {
@@ -174,6 +174,7 @@ hr
 #dev
 {
 	text-decoration: underline #3DF0D6;
+	text-underline-position: under;
 }
 .fondaside
 {
@@ -232,8 +233,3 @@ hr
 		text-align: center;
 	}
 }
-
-.date::before
-{
-content:"<i class="far fa-dot-circle lettrecolor"></i>"
-}	
