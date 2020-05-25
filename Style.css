@@ -57,7 +57,7 @@ h2
 }
 #titrecv.no-gutters
 {
-	padding-left: 40px;
+	padding-left: 80px;
 }
 h1
 {
@@ -114,13 +114,12 @@ section
 	display: flex;
 	flex-direction: column;
 	margin-top: 50px;
-	padding-left: 40px;
 	justify-content: space-around;
 	flex-grow: 1;
 }
 section.no-gutters
 {
-	padding-left: 40px;
+	padding-left: 80px;
 }
 hr
 {
@@ -215,9 +214,13 @@ hr
 	{
 		margin-top: 0;
 	}
+	#titrecv.no-gutters
+	{
+		padding: 10px;
+	}
 	section.no-gutters
 	{
-		padding: 5px;
+		padding: 20px;
 	}
 	h2
 
