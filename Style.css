@@ -260,4 +260,15 @@ h2 i
 	{
 		width: 150px;
 	}
+	ul
+	{
+		padding-left: 20px;
+	}
+}
+@media screen and (min-width: 1200px)
+{
+	#contenu
+	{
+		font-size: 1.2em;
+	}
 }
