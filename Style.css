@@ -40,9 +40,10 @@ h2
 }
 #photo img
 {
-	border: 1px;
+	border:4px solid rgba(132,255,255 ,0.6);
+	border-radius: 50%;
 	width: 200px;
-	clip-path: ellipse(50% 50%);
+	
 }	
 #tête
 {
