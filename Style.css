@@ -33,6 +33,7 @@ h2
 	text-align: center;
 	margin-top: 0px;
 	margin-right: -15px;
+	margin-left: -15px;
 	padding-right: 0px;
 	padding-left: 0px;
 	padding-top: 40px;
@@ -205,6 +206,11 @@ h2 i
 
 @media screen and (max-width:575px)
 {
+	#contenu
+	{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
 	aside
 	{
 		order: 2;
@@ -226,7 +232,6 @@ h2 i
 		padding: 20px;
 	}
 	h2
-
 	{
 		font-size: 1.5rem;
 	}
@@ -238,4 +243,5 @@ h2 i
 	{
 		text-align: center;
 	}
+
 }
