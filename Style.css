@@ -93,6 +93,11 @@ aside h2
 ul
 {
 	list-style-type: none;
+
+}
+li
+{
+	margin-bottom: 40px;
 }
 #parcours p
 {
