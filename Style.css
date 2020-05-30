@@ -141,12 +141,19 @@ h2 i
 {
 	margin-right: 15px;
 }
-               
 .form-col1
 {
-	width: 20%;
+	display: flex;
+	flex-direction: row; 
 }
-
+.form-col1.no-gutters
+{
+	margin-top: 0px;
+}
+.date
+{
+	padding-left: 30px;
+}           
 .form-ligne1 
 {
 	text-transform: uppercase;
@@ -286,16 +293,4 @@ h2 i
 	}
 }
 
-.form-col1
-{
-	display: flex;
-	flex-direction: row; 
-}
-.form-col1.no-gutters
-{
-	margin-top: 0px;
-}
-.date
-{
-	padding-left: 30px;
-}
+
