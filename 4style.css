@@ -1,0 +1,296 @@
+
+
+@font-face {
+	font-family: 'aaarghnormal';
+	src: url('Aaargh-webfont.eot');
+	src: url('Aaargh-webfont.eot?#iefix') format('embedded-opentype'), url('Aaargh-webfont.woff2') format('woff2'), url('Aaargh-webfont.woff') format('woff'), url('Aaargh-webfont.ttf') format('truetype'), url('Aaargh-webfont.svg#aaarghnormal') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+#contenu {
+	font-family: 'aaarghnormal';
+	padding-left: 0px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+
+/*partie haute*/
+
+#photo {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: -15px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 40px;
+}
+
+#photo img {
+	border: 4px solid rgba(132, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 200px;
+}
+
+#tête {
+	display: flex;
+	text-align: justify;
+	justify-content: space-around;
+}
+
+#titrecv {
+	padding-left: 30px;
+	margin: auto;
+}
+
+#titrecv.no-gutters {
+	padding-left: 80px;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+
+/*partie principale*/
+
+
+/*partie gauche colorée*/
+
+aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+aside.no-gutters {
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 40px;
+}
+
+aside h2 {
+	text-align: center;
+	width: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin-bottom: 40px;
+}
+
+#parcours p {
+	padding: 30px;
+	text-align: justify;
+}
+
+#listicones {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+#loisirs {
+	bottom: 30px;
+	padding-bottom: 30px;
+}
+
+
+/* partie droite*/
+
+section {
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+	justify-content: space-around;
+	flex-grow: 1;
+}
+
+section.no-gutters {
+	padding-left: 80px;
+}
+
+section div {
+	margin-bottom: 20px;
+}
+
+hr {
+	height: 2px;
+}
+
+.row div {
+	margin-top: 20px;
+}
+
+h2 i {
+	margin-right: 15px;
+}
+
+.form-col1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.form-col1.no-gutters {
+	margin-top: 0px;
+}
+
+.date {
+	padding-left: 30px;
+}
+
+.form-ligne1 {
+	text-transform: uppercase;
+	font-size: 1.3em;
+	padding-right: 30px;
+}
+
+.form-ligne2 {
+	font-size: 1.2em;
+}
+
+#recommandations,
+#experience {
+	margin-top: 50px;
+}
+
+.recom {
+	margin: auto;
+	line-height: 0.9rem;
+}
+
+.nom-recom {
+	text-transform: uppercase;
+}
+
+.email {
+	font-weight: lighter;
+}
+
+
+/* couleurs*/
+
+#listicones i {
+	font-size: 2em;
+	border-radius: 50%;
+	border: solid #3F3D57 2px;
+	padding: 8px;
+}
+
+#dev {
+	text-decoration: underline #3DF0D6;
+	text-underline-position: under;
+}
+
+.fondaside {
+	background-color: #3DF0D6;
+}
+
+.lettrecolor {
+	color: #3DF0D6;
+}
+
+.fondtitre {
+	background-color: #3F3D57;
+}
+
+.lettrefoncée {
+	color: #3F3D57;
+}
+
+
+/* taille icones*/
+
+.petite {
+	font-size: 0.6em;
+}
+
+
+/*responsive*/
+
+@media screen and (max-width:767px) {
+	#contenu {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	aside {
+		order: 2;
+	}
+	aside.no-gutters {
+		padding-top: 0;
+	}
+	#contact {
+		margin-top: 0;
+	}
+	#titrecv.no-gutters {
+		padding: 10px;
+	}
+	#photo {
+		margin-left: -15px;
+	}
+	section.no-gutters {
+		padding: 20px;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	.form-ligne1 {
+		font-size: 1rem;
+	}
+	#titrecv h1,
+	#titrecv h3 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width:980px) {
+	#photo img {
+		width: 150px;
+	}
+	ul {
+		padding-left: 20px;
+	}
+	section.no-gutters {
+		padding: 20px;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	body {
+		font-size: 1.4em;
+	}
+}
+
+@media screen and (max-width: 300px) {
+	h2 {
+		font-size: 1.2em;
+	}
+	body {
+		font-size: 0.9em;
+	}
+	h1 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.1em;
+	}
+}
+
